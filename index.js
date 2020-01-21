@@ -5,8 +5,8 @@ function theBeatlesPlay(musicians, instruments)
   {
     var sentence = musicians[i] + " plays " + instruments[i]
     whoplayswhat.push(sentence)
-    return whoplayswhat
   }
+  return whoplayswhat
 }
 
 function johnLennonFacts(facts)
