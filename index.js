@@ -5,5 +5,6 @@ function theBeatlesPlay(musicians, instruments)
   {
     var sentence = musicians[i] + " plays " + instruments[i]
     whoplayswhat.push(sentence)
+    return whoplayswhat
   }
 }
